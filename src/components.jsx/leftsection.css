@@ -1,0 +1,28 @@
+.parentleftsection{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.element{
+    width: 70%;
+    padding: 3% 3%;
+    /* background-color: aqua; */
+    transition: background-color 0.3s;
+    color: white;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+.element:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.imgperson{
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.fontsize{
+    font-size: 2rem;
+    color: white;
+    margin-left: 10px;
+}

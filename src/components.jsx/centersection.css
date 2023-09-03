@@ -1,0 +1,34 @@
+.card {
+  width: 75%;
+  margin-top: 20px;
+  background-color: rgb(52, 52, 52);
+  color: white;
+  /* border: 1px solid white;    */
+  border-radius: 10px;
+}
+.firstdiv {
+  display: flex;
+  gap: 20px;
+  background-color: rgb(52, 52, 52);
+
+  color: white;
+  
+  border-radius: 20px;
+  padding: 2% 1%;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.firstdiv:hover, .btn:hover {
+    filter: brightness(150%); /* Adjust the value as needed */
+    background-color: rgba(255, 255, 255, 0.387);
+  }
+/* .realcard{
+    width: 100%;
+} */
+.ajeeb {
+  font-size: 0.8rem;
+}
+.btn{
+    transition: background-color 0.3s;
+}

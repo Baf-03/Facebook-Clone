@@ -1,0 +1,37 @@
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: rgb(52, 52, 52);
+    color: white;
+    position:sticky;
+    top: 0;
+
+}
+.navelements{
+    display :flex;
+    gap: 20px;
+    align-items: center;
+  color: white;
+}
+.mainnavelements{
+    display :flex;
+    gap: 60px;
+    font-size: 20px;
+    align-items: center;
+  color: white;
+}
+.searchbar{
+    width: 60%;  
+}
+.img{
+    width: 100%;
+}
+.searchbar{
+    background: rgb(52, 52, 52);
+    color: white;
+}
+.searchbar:focus{
+    background: rgb(52, 52, 52);
+    color: beige;
+}
